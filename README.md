@@ -1,11 +1,13 @@
-# 📊 Analysis of the the seasonal trends in the real estate market of St. Petersburg and the Leningrad region for the purpose of Marketing Optimization
+# 📊 Analysis of Player Monetization and In-Game Economy Optimization for the "Secrets of the Darkwood" Project
 
 ## 📌 Business Case Overview
-The client, a real-estate agency was considering entering St. Petersburg's market and needed reliable data to assess its prospects and plan market launch activities. 
+The client requires a comprehensive analysis of the commercial health and player monetization patterns within the RPG "Secrets of the Darkwood". The final insights will be utilized to optimize marketing and product management strategy.
 
 ## 🎯 Project Objectives 
-- Identify the market dynamics and deliver insights regarding periods with increased activity of sellers and buyers to leadership.📌 
-- Create interactive dashboard.📌 
+- **Assess Conversion Dynamics**: Measure the overall baseline of paying users across the game and determine thу precise impact of various character races on transaction conversion rates.📌 
+- **Identify Revenue Structure**: Conduct a Pareto analysis to measure revenue concentration.📌 
+- **Formulate Optimization Strategies**: Provide actionable frameworks for catalog restructuring and segment-targeted marketing activities based on player behavioral insights.📌
+
 
 ## 🔗 Quick Links
 * ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
@@ -19,8 +21,9 @@ The client, a real-estate agency was considering entering St. Petersburg's marke
 * **BI Platform:** Yandex DataLens — leveraged for building the interactive dashboard and performing cohort analysis.
 
 ---
-
+and isolate anomalous transactions or potential developer test accounts that distort standard averages
 ## 🔍 Research Approach 
+Based on the comprehensive dataset this analysis evaluates how character demographics, specifically character races, impact player conversion and the purchasing dynamics of the premium currency.
 * **Data Cleaning & Scope**: The study analyzed a cleaned 2015–2018 real estate dataset for St. Petersburg and Leningrad Oblast towns, filtering out extreme anomalies in area, price, and zero-duration listings to ensure consistency.
 * **Methodological Segmentation**: The analysis separated the data into specific temporary subsets to distinctly track listing publications (supply) and listing removals (completed sales) over time.
 * **Time Lag Integration**: The methodology explicitly incorporated a natural 1–2 month transaction lag, noting that listing removals heavily reflect purchasing decisions made in preceding months.  
