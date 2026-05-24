@@ -21,8 +21,10 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🔍 Research Approach 
-Data Cleaning & Scope: The study analyzed a transactional dataset containing over 1.3 million records. A rigorous data cleansing protocol was recommended to address 508,000 missing seller_id entries (approx. 40% of the database) and isolate extreme outliers.  Statistical Anomaly Thresholding: Anomaly detection was established using a strict statistical boundary formula:$$\text{Threshold} = \mu (\text{avg\_amount}) + \sigma (\text{stdev}) = 525.69 + 2517.35 = 3043.04 \text{ credits.}$$
-This successfully isolated 44,043 extreme transactions (3.37% of the database) for separate evaluation.  Behavioral and Segment Cohorts: Players were grouped dynamically into analytical subsets based on character race (race_id) and total purchase value to distinctly evaluate purchasing frequency against average check sizes.  
+* **Data Cleaning & Scope**: The study analyzed a transactional dataset containing over 1.3 million records. A rigorous data cleansing protocol was recommended to address 508,000 missing seller_id entries (approx. 40% of the database) and isolate extreme outliers.
+* **Statistical Anomaly Thresholding**: Anomaly detection was established using a strict statistical boundary formula:$$\text{Threshold} = \mu (\text{avg\_amount}) + \sigma (\text{stdev}) = 525.69 + 2517.35 = 3043.04 \text{ credits.}$$
+This successfully isolated 44,043 extreme transactions (3.37% of the database) for separate evaluation.
+* **Behavioral and Segment Cohorts**: Players were grouped dynamically into analytical subsets based on character race (race_id) and total purchase value to distinctly evaluate purchasing frequency against average check sizes.  
 
 ---
 
