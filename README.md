@@ -27,11 +27,10 @@ The client requires a comprehensive analysis of the commercial health and player
 
 ---
 
-## 💡 Key Findings
-*	**St. Petersburg Domination**: St. Petersburg heavily drives the regional market, exhibiting 1.7x higher square-meter prices and a financial volume in November that is 8 times larger than the entire Leningrad Oblast. 
-*	**Autumn Market Peak**: Autumn (September to November) serves as the ultimate peak season where buyer and seller activities align, contrasted by a sharp supply-demand mismatch in February and absolute market stagnation in May. 
-*	**Liquidity and Format Correlations**: Most listings close within 1–3 months or stretch beyond half a year, with transaction speeds heavily dictated by lower prices, smaller 1-room formats, and the presence of a balcony. 
-
+## 💡 Key Findings 
+* **Severe Revenue Concentration (Pareto Risk)**: The in-game economy relies heavily on a small group of "whales"; a mere 11.7% of users (2,590 players) generate 80% of total revenue, with a single outlier account (08-8623692) generating 28.47 million credits alone.
+* **Extreme Item Monopolization**: Out of 182 catalog items, just two items account for 98% of total revenue: "Book of Legends" (76.87% value share, bought by 88.41% of players) and "Bag of Holding" (20.81% value share).
+* **Race-Driven Spending Patterns**: Character races dictate clear player behavior; Demons yield the highest conversion rate (19.95%), Northmen lead the premium tier with a 15–20% higher average check size (761.52 credits), while Humans generate the highest purchase frequency (121.4 purchases) but the lowest average check size.
 ---
 
 ## 🚀 Strategic Recommendations
