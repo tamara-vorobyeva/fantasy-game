@@ -15,12 +15,11 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🛠 Tech Stack
-* **Database:** PostgreSQL (temporary tables, advanced Window Functions, CTEs, complex aggregations, segmentation, pivot).
-* **Data Processing:** PostgreSQL (DBeaver) — utilized for data deduplication and data anomalies filtration.
-* **BI Platform:** Yandex DataLens — leveraged for building the interactive dashboard and performing cohort analysis.
+* **Database**: PostgreSQL utilized to isolate anomalous transactions and duplicates, to execute advanced analytical queries, complex aggregations, window functions, and data segmentation.
+* **Data Processing Interface**: PostgreSQL via DBeaver served as the primary database client environment for handling table connections and script restoration.
 
 ---
-and isolate anomalous transactions or potential developer test accounts that distort standard averages
+
 ## 🔍 Research Approach 
 Based on the comprehensive dataset this analysis evaluates how character demographics, specifically character races, impact player conversion and the purchasing dynamics of the premium currency.
 * **Data Cleaning & Scope**: The study analyzed a cleaned 2015–2018 real estate dataset for St. Petersburg and Leningrad Oblast towns, filtering out extreme anomalies in area, price, and zero-duration listings to ensure consistency.
