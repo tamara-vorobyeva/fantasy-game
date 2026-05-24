@@ -1,3 +1,9 @@
+/* Project: Data Analysis for Fantasy Game
+ * Part 2. Solving ad hoc tasks
+ *
+ * Author: Vorobyeva T.
+*/
+
 --Task 1. Investigation of Paying Player Share
 -- 1.1. Number of players and share of paying users across all data:
 SELECT 
