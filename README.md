@@ -15,7 +15,22 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🛠 Tech Stack
-* **Database**: PostgreSQL utilized to isolate anomalous transactions and duplicates, to execute advanced analytical queries, complex aggregations, window functions, and data segmentation.
+* **Database**:
+* To analyze the game economy of "Darkwood", a relational database consisting of 6 tables was used: 'users', 'events', 'items', 'classes', 'skills', 'race', and 'country'.
+
+### 2.1. Analytical Data Mart
+Since the source tables are highly normalized, a denormalized analytical data mart was designed for ad-hoc querying and final visualization. This data mart consolidates raw transaction logs with user profiles and calculates key business metrics (such as purchase frequency and LTV) at the individual player level.
+
+**Sample view of the resulting data mart (Top 5 players by total spend):
+|user_id|registration_date|character_race|character_class|country|is_payer|total_transactions|total_spend_amount|
+|-------|-----------------|--------------|---------------|-------|--------|------------------|------------------|
+|08-8623692|10/2/2018|Northman|Knight|United States|1|596|28474180|
+|77-1992679|6/22/2004|Human|Shaman|United States|0|13552|6557477.5|
+|42-7020868|3/13/2009|Hobbit|Knight|United States|0|4504|6388133.0|
+|48-0839790|9/28/2011|Elf|Healer|United States|0|444|5542913.0|
+|31-2080898|8/30/2019|Angel|Knight|United States|0|670|4269111.5|
+
+* PostgreSQL utilized to isolate anomalous transactions and duplicates, to execute advanced analytical queries, complex aggregations, window functions, and data segmentation.
 * **Data Processing Interface**: PostgreSQL via DBeaver served as the primary database client environment for handling table connections and script restoration.
 
 ---
