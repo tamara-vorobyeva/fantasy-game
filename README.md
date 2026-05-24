@@ -15,8 +15,7 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🛠 Tech Stack
-* **Database**:
-* To analyze the game economy of "Darkwood", a relational database consisting of 6 tables was used: 'users', 'events', 'items', 'classes', 'skills', 'race', and 'country'.
+* **Database**: To analyze the game economy of "Darkwood", a relational database consisting of 6 tables was used: 'users', 'events', 'items', 'classes', 'skills', 'race', and 'country'.
 
 ### 2.1. Analytical Data Mart
 Since the source tables are highly normalized, a denormalized analytical data mart was designed for ad-hoc querying and final visualization. This data mart consolidates raw transaction logs with user profiles and calculates key business metrics (such as purchase frequency and LTV) at the individual player level.
