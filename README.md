@@ -9,7 +9,8 @@ The client requires a comprehensive analysis of the commercial health and player
 - **Deliver Strategic Insights**: Provide recommendations for catalog restructuring and segment-targeted marketing activities based on player behavioral insights.📌
 
 ## 🔗 Quick Links
-* ▶ **[View SQL Data Cleaning & Analysis Script](src/data-cleansing-analysis)** 
+* **[View SQL Data Cleaning & Analysis Script](src/data-cleansing-analysis)**
+* **[Dataset](data/dataset-500)**
 
 ---
 
