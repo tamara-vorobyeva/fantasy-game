@@ -34,9 +34,9 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🚀 Strategic Recommendations
-*	**Core Focus & Timing**: Concentrate primary business operations within St. Petersburg and launch major marketing campaigns between late September and October to capture the peak annual demand. 
-*	**Target High-Liquidity Segment**: Build the core portfolio around 1–2 room apartments ranging between 45 and 65 sq.m. in St. Petersburg and highly accessible inner-city towns like Gatchina, Pushkin, and Pavlovsk. 
-*	**Cautious Premium Execution**: Enter the high-commission premium tier selectively, factoring in aggressive market competition and a 1.5x longer sales cycle (averaging 228 days compared to 155 days for budget properties). 
+* **Segment-Targeted Marketing**: Deploy high-value "Hero Packs" and VIP tiers to maximum-spend Northmen and Elves; raise entry-level item prices for high-frequency Humans and Angels; and implement instant retargeting or subscription offers for high-conversion Demons.
+* **Product Catalog Optimization**: Systematically audit and remove or replace the 180 non-performing items that make up just 2% of sales, introduce new high-value "star" items, and explore external luxury brand cosmetic collaborations.
+* **Data Architecture & Analytics To-Do's**: Run an intensive database cleaning cycle to address the 508,000 transactions (40% of the base) missing a valid seller_id, and conduct analysis of the top 10 whale profiles separately from baseline financial forecast.
 
 ---
 
