@@ -6,12 +6,10 @@ The client requires a comprehensive analysis of the commercial health and player
 ## 🎯 Project Objectives 
 - **Assess Conversion Dynamics**: Measure the overall baseline of paying users across the game and determine thу precise impact of various character races on transaction conversion rates.📌 
 - **Identify Revenue Structure**: Conduct a Pareto analysis to measure revenue concentration.📌 
-- **Formulate Optimization Strategies**: Provide actionable frameworks for catalog restructuring and segment-targeted marketing activities based on player behavioral insights.📌
-
+- **Deliver Strategic Insights**: Provide recommendations for catalog restructuring and segment-targeted marketing activities based on player behavioral insights.📌
 
 ## 🔗 Quick Links
-* ▶ **[View Interactive Dashboard in Yandex DataLens](https://datalens.ru/gvj9ho0yb4tc0)** (No registration required)
-* 🛠 **[View SQL Data Cleaning & Analysis Script](src/data-cleansing-analysis)** 
+* ▶ **[View SQL Data Cleaning & Analysis Script](src/data-cleansing-analysis)** 
 
 ---
 
