@@ -21,10 +21,8 @@ The client requires a comprehensive analysis of the commercial health and player
 ---
 
 ## 🔍 Research Approach 
-Based on the comprehensive dataset this analysis evaluates how character demographics, specifically character races, impact player conversion and the purchasing dynamics of the premium currency.
-* **Data Cleaning & Scope**: The study analyzed a cleaned 2015–2018 real estate dataset for St. Petersburg and Leningrad Oblast towns, filtering out extreme anomalies in area, price, and zero-duration listings to ensure consistency.
-* **Methodological Segmentation**: The analysis separated the data into specific temporary subsets to distinctly track listing publications (supply) and listing removals (completed sales) over time.
-* **Time Lag Integration**: The methodology explicitly incorporated a natural 1–2 month transaction lag, noting that listing removals heavily reflect purchasing decisions made in preceding months.  
+Data Cleaning & Scope: The study analyzed a transactional dataset containing over 1.3 million records. A rigorous data cleansing protocol was recommended to address 508,000 missing seller_id entries (approx. 40% of the database) and isolate extreme outliers.  Statistical Anomaly Thresholding: Anomaly detection was established using a strict statistical boundary formula:$$\text{Threshold} = \mu (\text{avg\_amount}) + \sigma (\text{stdev}) = 525.69 + 2517.35 = 3043.04 \text{ credits.}$$
+This successfully isolated 44,043 extreme transactions (3.37% of the database) for separate evaluation.  Behavioral and Segment Cohorts: Players were grouped dynamically into analytical subsets based on character race (race_id) and total purchase value to distinctly evaluate purchasing frequency against average check sizes.  
 
 ---
 
