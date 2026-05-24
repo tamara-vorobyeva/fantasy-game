@@ -1,5 +1,4 @@
 /* Project: Data Analysis for Fantasy Game
- * Part 2. Solving ad hoc tasks
  *
  * Author: Vorobyeva T.
 */
